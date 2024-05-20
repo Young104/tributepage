@@ -1,0 +1,55 @@
+img{
+    width: 700px;
+    height: auto;
+    border-radius: 10px;
+
+}
+.tribute{
+    position: relative;
+display: inline-block;
+text-align: center;
+}
+
+.musa{
+    color: #bbb;
+    position: absolute;
+    top: 55%;
+    right: 60%;
+    transform: translate(+1%, -50%);
+    font-size: 15px;
+    
+    
+}
+.tri{
+    color: #bbb;
+    top: 20%;
+    transform: translate(+1%, -6%);
+    position: absolute;
+    font-size: large;
+    text-transform: uppercase;
+    left: 2%;    
+}
+body {
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+}
+.muss{
+    color: azure;
+    position: absolute;
+    font-size: 20px;
+    transform: translate(+1%, -10%);
+    top: 30%;
+    right: 76%;
+}
+.musa, img, .tri{
+    padding: 20px;
+    border-radius: 50px;
+    
+}
+
+@media screen and (max-width 390px){
+    img {
+        height: 900px;
+    }
+}
